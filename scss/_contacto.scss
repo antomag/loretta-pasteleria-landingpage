@@ -1,0 +1,29 @@
+//CONTACTO
+.legend{
+    color:rgb(245, 153, 153);
+}
+form{
+    margin: 10px;
+    font-size: 25px;
+    fieldset{
+        border: solid 1.5px black;
+        margin: 5px;
+        padding: 5px;
+    }
+}
+.botonEnviar{
+    width: 25%;
+    height: 50px;
+    font-size: xx-large;
+    margin-top: 7px;
+    margin-left: 10%;
+    margin-bottom: 10px;
+}
+.botonLimpiar{
+    width: 15%;
+    height: 40px; 
+    font-size: x-large;
+}
+.tituloForm{
+    margin-left: 25px;
+}

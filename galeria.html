@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!--etiqueta Responsive-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <!-- SEO -->
+    <meta name="keywords" content="Loretta, pasteleria, rogel, postres, fotos, galeria, macarons, frutillas, tortas, postres, boxs, marquise, brownie">
+    <title>Nuestra galeria de productos - Loretta Pasteleria</title>
+    <meta name="description" content="Da un paseo y antojate con la galeria de productos de Loretta Pasteleria, un emprendimiento creado con mucho amor." />
+    <!-- fin SEO -->
+
+    
+    <!--Estilo Boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--inserto la hoja de estilo de manera externa-->
+    <link rel="stylesheet" href="./css/destino.css">
+    <!--letra google fonts (Amatic SC)-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Dosis:wght@300&display=swap" rel="stylesheet">
+    <!--animaciones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body id="arriba" class="grid">
+    <header> <!--encabezado-->
+        <nav class="navbar navbar-expand-lg navbar-light colorNav">
+            <div class="container-fluid">
+              <img class="logo animate__pulse" src="./img/logo.png" alt="Logo Loretta Pasteleria">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">INICIO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="productos.html">PRODUCTOS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">CONTACTO</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="galeria.html" >GALERIA</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+    </header >
+    
+    <main class="flexGaleria fondoVerde" > <!--contenido principal-->
+        <h1 class="animate__backInLeft">FOTOS DE NUESTROS PRODUCTOS</h1>
+        <hr>
+        <section class="gridPostres"> <!--TARTAS Y POSTRES-->
+            <h2 id="tartas" >TARTAS Y POSTRES</h2>
+            <img id="uno" src="./img/brownieblanco.jpeg" alt="Brownie blanco con decoracion" class="imgGaleria">
+    
+            <img id="dos" src="./img/browniefrutillas.jpeg" alt="Brownie negro con frutillas" class="imgGaleria">
+            
+            <img id="tres" src="./img/marquise.jpeg" alt="Brownie negro con decoracion de Macarons" class="imgGaleria">
+            
+            <img id="cuatro" src="./img/marquise1.jpeg" alt="Brownie negro con decoracion de Macarons" class="imgGaleria">
+            
+            <img id="cinco" src="./img/rogel.jpeg" alt="Torta Rogel" class="imgGaleria">
+            
+            <img id="seis" src="./img/tresmouses.jpeg" alt="Torta Tres Mouses" class="imgGaleria">
+            
+            <img id="siete" src="./img/tresmouses1.jpeg" alt="Torta Tres Mouses" class="imgGaleria">
+        </section>
+
+        <section class="gridTortas"> <!--TORTAS-->
+            <h2>TORTAS</h2>
+            <img src="./img/redvelvet.jpeg" alt="Torta Red Velvet" class="imgGaleria">
+           
+            <img src="./img/redvelvet1.jpeg" alt="Torta Red Velvet" class="imgGaleria">
+            
+            <img src="./img/torta1.jpeg" alt="Torta buttercream" class="imgGaleria">
+        </section>
+        
+        <section class="gridBoxs"> <!--BOXS-->
+            <h2>BOXS Y OTROS</h2>
+            <img src="./img/4cuartos.jpeg" alt="Box 4 cuartos" class="imgGaleria">
+            
+            <img src="./img/macarons.jpeg" alt="Macarons" class="imgGaleria">
+        </section>
+    </main>
+    <a href="#arriba"> <input type="button" value="SUBIR" class="boton"> </a>
+    <footer> <!--pie de pagina-->
+        <p>Loretta pasteleria    ❤    'Trabajando con mucho amor desde 2017'    ❤</p>
+    </footer>
+
+    <!--Script Boostrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>

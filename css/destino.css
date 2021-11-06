@@ -1,0 +1,271 @@
+/*IMPORT*/
+/*Smartphone*/
+@media (max-width: 576px) {
+  .flexMenu {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none; }
+  .flexGaleria {
+    display: flex;
+    flex-flow: column nowrap; } }
+
+/*Tablet*/
+@media (min-width: 577px) and (max-width: 992px) {
+  .flexMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    list-style-type: none; }
+  .flexGaleria {
+    display: flex;
+    flex-flow: column nowrap; } }
+
+/*Desktop*/
+@media (min-width: 993px) {
+  .flexMenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    list-style-type: none; }
+  .gridPostres {
+    display: grid;
+    grid-template-columns: 350px repeat(3, 1fr);
+    grid-template-areas: "h3 h3 h3 h3" "uno dos tres cuatro" "uno cinco seis siete";
+    gap: 1rem;
+    align-items: center; }
+  h3#tartas {
+    grid-area: h3; }
+  img#uno {
+    grid-area: uno;
+    width: 390px; }
+  img#dos {
+    grid-area: dos; }
+  img#tres {
+    grid-area: tres; }
+  img#cuatro {
+    grid-area: cuatro; }
+  img#cinco {
+    grid-area: cinco; }
+  img#seis {
+    grid-area: seis; }
+  img#siete {
+    grid-area: siete; } }
+
+.fondoIndex {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../img/cajaloretta1.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; }
+
+.footerIndex {
+  height: 105px;
+  font-size: 40px;
+  padding: 20px; }
+
+.alert {
+  margin: 15px 30px 15px 30px;
+  font-size: 50px; }
+
+.btn--instagram {
+  background-color: #DD2A7B;
+  width: 100px;
+  height: 100px;
+  border: black solid 2px;
+  border-radius: 30%;
+  background-position: center;
+  opacity: 85%;
+  margin-top: 100px;
+  margin-left: 40%; }
+
+.imgRedes {
+  margin: 2px;
+  padding: 2px;
+  width: 80px;
+  height: 80px; }
+
+.btn--whatsapp {
+  background-color: #25D366;
+  width: 100px;
+  height: 100px;
+  border: black solid 2px;
+  border-radius: 30%;
+  background-position: center;
+  opacity: 85%;
+  margin-top: 100px;
+  margin-left: 40%; }
+
+.imgRedes {
+  margin: 2px;
+  padding: 2px;
+  width: 80px;
+  height: 80px; }
+
+.btn--email {
+  background-color: #DB4437;
+  width: 100px;
+  height: 100px;
+  border: black solid 2px;
+  border-radius: 30%;
+  background-position: center;
+  opacity: 85%;
+  margin-top: 100px;
+  margin-left: 40%; }
+
+.imgRedes {
+  margin: 2px;
+  padding: 2px;
+  width: 80px;
+  height: 80px; }
+
+article {
+  margin: 5px;
+  padding: 15px;
+  font-size: 25px;
+  line-height: 1.5;
+  text-align: justify;
+  color: black; }
+
+.listaProductos {
+  width: 60%;
+  border: solid 1px black;
+  margin: 5px;
+  padding: 5px;
+  overflow: auto;
+  font-size: larger; }
+
+.tituloProductos {
+  margin: 0px 10px 10px 10px;
+  text-align: left; }
+
+.macsPNG {
+  margin-left: 800px; }
+
+.legend {
+  color: #f59999; }
+
+form {
+  margin: 10px;
+  font-size: 25px; }
+  form fieldset {
+    border: solid 1.5px black;
+    margin: 5px;
+    padding: 5px; }
+
+.botonEnviar {
+  width: 25%;
+  height: 50px;
+  font-size: xx-large;
+  margin-top: 7px;
+  margin-left: 10%;
+  margin-bottom: 10px; }
+
+.botonLimpiar {
+  width: 15%;
+  height: 40px;
+  font-size: x-large; }
+
+.tituloForm {
+  margin-left: 25px; }
+
+.imgGaleria {
+  width: 300px;
+  max-width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border: dashed 1.75px black;
+  margin: 0.5rem;
+  padding: 1px; }
+
+h3 {
+  font-size: xx-large;
+  text-align: left;
+  margin: 0px 10px 10px 10px; }
+
+/*TRASNFORMACION-TRANSICION-ANIMACION*/
+input {
+  width: 80px;
+  height: 20px;
+  transform: all 2s; }
+
+input:focus {
+  width: 200px;
+  height: 40px;
+  font-size: 24px; }
+
+/*animacion articulo*/
+article p {
+  animation-duration: 3s;
+  animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+
+/*ESTILOS GENERALES*/
+* {
+  margin: 0;
+  text-decoration: none;
+  font-family: 'Amatic SC'; }
+
+html {
+  font-size: 18px; }
+  html a {
+    color: black; }
+
+body header {
+  width: 100%;
+  background-color: #f5b8b8;
+  position: sticky;
+  border: solid 0.5px black; }
+  body header nav li {
+    margin-left: 20%;
+    padding: 2px;
+    font-size: xx-large;
+    text-decoration: none; }
+
+body main {
+  min-height: 100vh;
+  margin-bottom: 30px; }
+
+body footer {
+  width: 100%;
+  height: 25px;
+  background-color: #f2e9d4;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  z-index: 1; }
+
+.logo {
+  width: 110px;
+  height: 80px;
+  margin: 10px;
+  padding: 5px;
+  border: solid 1.5px #6e6e6e;
+  display: inline;
+  animation-name: zoomLogo;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 2s; }
+
+.boton {
+  width: 55px;
+  height: 40px;
+  font-size: 25px;
+  margin-right: 10px;
+  margin-bottom: 35px;
+  position: fixed;
+  bottom: 0;
+  right: 0; }
+
+.fondoVerde {
+  min-height: 100vh;
+  background-color: #dbefe6;
+  margin: 5px;
+  margin-bottom: 30px; }
