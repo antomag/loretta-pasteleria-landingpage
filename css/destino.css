@@ -222,7 +222,7 @@ html {
 
 body header {
   width: 100%;
-  background-color: red;
+  background-color: #f5b8b8;
   position: sticky;
   border: solid 0.5px black; }
   body header nav li {
