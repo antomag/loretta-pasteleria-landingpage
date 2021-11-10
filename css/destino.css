@@ -30,7 +30,9 @@
   .gridPostres {
     display: grid;
     grid-template-columns: 350px repeat(3, 1fr);
-    grid-template-areas: "h3 h3 h3 h3" "uno dos tres cuatro" "uno cinco seis siete";
+    grid-template-areas: "h3 h3 h3 h3"
+ "uno dos tres cuatro"
+ "uno cinco seis siete";
     gap: 1rem;
     align-items: center; }
   h3#tartas {
@@ -220,7 +222,7 @@ html {
 
 body header {
   width: 100%;
-  background-color: #f5b8b8;
+  background-color: red;
   position: sticky;
   border: solid 0.5px black; }
   body header nav li {
