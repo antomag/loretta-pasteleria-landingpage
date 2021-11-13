@@ -7,33 +7,32 @@
     background-position: center;
     background-size: cover;
 }
-.alertaYfotos{
-    background-color: rgb(219, 239, 230);
-    width: 100%;
-    height: 70vh;
-    .alert{
+.alert{
         margin-top: 10px;
         margin-left: 70px;
         margin-right: 70px;
         font-size: 40px;
         text-align: center;
-    }
-    .presentacion{
+ }
+.alertaYfotos{
+    background-color: rgb(219, 239, 230);
+    width: 100%;
+    height: 70vh;
+}
+.presentacion{
         font-size: 30px;
         text-align: center;
     }
-}
 .redes{
-    .contactame{
-        color: black;
-        margin-left: 4%;
-    }
     background-color: rgb(219, 239, 230);
     width: 100%;
     height: 30vh;
     margin-top: 300px;
 }
-
+.contactame{
+        color: black;
+        margin-left: 4%;
+    }
 
 
 
