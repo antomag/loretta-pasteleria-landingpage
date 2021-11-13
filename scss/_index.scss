@@ -10,7 +10,7 @@
 .alertaYfotos{
     background-color: rgb(219, 239, 230);
     width: 100%;
-    height: 60vh;
+    height: 70vh;
     .alert{
         margin-top: 10px;
         margin-left: 70px;
@@ -18,12 +18,19 @@
         font-size: 40px;
         text-align: center;
     }
-    
+    .presentacion{
+        font-size: 30px;
+        text-align: center;
+    }
 }
 .redes{
+    .contactame{
+        color: black;
+        margin-left: 4%;
+    }
     background-color: rgb(219, 239, 230);
     width: 100%;
-    height: 20vh;
+    height: 30vh;
     margin-top: 300px;
 }
 
