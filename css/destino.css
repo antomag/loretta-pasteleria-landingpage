@@ -30,9 +30,7 @@
   .gridPostres {
     display: grid;
     grid-template-columns: 350px repeat(3, 1fr);
-    grid-template-areas: "h3 h3 h3 h3"
- "uno dos tres cuatro"
- "uno cinco seis siete";
+    grid-template-areas: "h3 h3 h3 h3" "uno dos tres cuatro" "uno cinco seis siete";
     gap: 1rem;
     align-items: center; }
   h3#tartas {
@@ -61,14 +59,22 @@
   background-position: center;
   background-size: cover; }
 
-.footerIndex {
-  height: 105px;
-  font-size: 40px;
-  padding: 20px; }
+.alertaYfotos {
+  background-color: #dbefe6;
+  width: 100%;
+  height: 60vh; }
+  .alertaYfotos .alert {
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-size: 40px;
+    text-align: center; }
 
-.alert {
-  margin: 15px 30px 15px 30px;
-  font-size: 50px; }
+.redes {
+  background-color: #dbefe6;
+  width: 100%;
+  height: 20vh;
+  margin-top: 300px; }
 
 .btn--instagram {
   background-color: #DD2A7B;
@@ -78,8 +84,8 @@
   border-radius: 30%;
   background-position: center;
   opacity: 85%;
-  margin-top: 100px;
-  margin-left: 40%; }
+  margin-left: 30%;
+  margin-top: auto; }
 
 .imgRedes {
   margin: 2px;
@@ -95,8 +101,8 @@
   border-radius: 30%;
   background-position: center;
   opacity: 85%;
-  margin-top: 100px;
-  margin-left: 40%; }
+  margin-left: 30%;
+  margin-top: auto; }
 
 .imgRedes {
   margin: 2px;
@@ -112,8 +118,8 @@
   border-radius: 30%;
   background-position: center;
   opacity: 85%;
-  margin-top: 100px;
-  margin-left: 40%; }
+  margin-left: 30%;
+  margin-top: auto; }
 
 .imgRedes {
   margin: 2px;
