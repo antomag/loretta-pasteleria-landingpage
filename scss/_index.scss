@@ -22,6 +22,7 @@
 .presentacion{
     font-size: 30px;
     text-align: center;
+    background-color: rgb(219, 239, 230) ;
 }
 .redes{
     background-color: rgb(219, 239, 230);
@@ -30,11 +31,9 @@
     margin-top: 300px;
 }
 .contactame{
-        color: black;
-        margin-left: 4%;
-    }
-
-
+    color: black;
+    margin-left: 4%;
+}
 
 //map
 $redes: (
@@ -47,8 +46,8 @@ $redes: (
 @each $social, $color in $redes {
     .btn--#{$social} {
         background-color: $color;
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
         border: black solid 2px;
         border-radius: 30%;
         background-position: center;
@@ -60,7 +59,7 @@ $redes: (
     .imgRedes{
         margin: 2px;
         padding: 2px;
-        width: 80px;
-        height: 80px;
+        width: 60px;
+        height: 60px;
     }
 }

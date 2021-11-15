@@ -73,7 +73,8 @@
 
 .presentacion {
   font-size: 30px;
-  text-align: center; }
+  text-align: center;
+  background-color: #dbefe6; }
 
 .redes {
   background-color: #dbefe6;
@@ -87,8 +88,8 @@
 
 .btn--instagram {
   background-color: #DD2A7B;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border: black solid 2px;
   border-radius: 30%;
   background-position: center;
@@ -99,13 +100,13 @@
 .imgRedes {
   margin: 2px;
   padding: 2px;
-  width: 80px;
-  height: 80px; }
+  width: 60px;
+  height: 60px; }
 
 .btn--whatsapp {
   background-color: #25D366;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border: black solid 2px;
   border-radius: 30%;
   background-position: center;
@@ -116,13 +117,13 @@
 .imgRedes {
   margin: 2px;
   padding: 2px;
-  width: 80px;
-  height: 80px; }
+  width: 60px;
+  height: 60px; }
 
 .btn--email {
   background-color: #DB4437;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   border: black solid 2px;
   border-radius: 30%;
   background-position: center;
@@ -133,8 +134,8 @@
 .imgRedes {
   margin: 2px;
   padding: 2px;
-  width: 80px;
-  height: 80px; }
+  width: 60px;
+  height: 60px; }
 
 article {
   margin: 5px;
