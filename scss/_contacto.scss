@@ -1,4 +1,7 @@
 //CONTACTO
+.tituloForm{
+    margin-left: 25px;
+}
 .legend{
     color:rgb(245, 153, 153);
 }
@@ -24,6 +27,13 @@ form{
     height: 40px; 
     font-size: x-large;
 }
-.tituloForm{
-    margin-left: 25px;
+.inputForm{
+    width: 150px;
+    height: 30px;
+    transform: all 2s;
+}
+.inputForm:focus{
+    width: 300px;
+    height: 40px;
+    font-size: 24px;
 }

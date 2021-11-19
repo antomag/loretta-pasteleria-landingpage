@@ -3,27 +3,16 @@
 /*Smartphone*/
 @media (max-width: 576px)
 {
-    .flexMenu{
+    .flexIndex{
         display: flex;
-        flex-direction: column;
-        list-style-type: none;
-    }
-    .flexGaleria{
-        display: flex;
-        flex-flow: column nowrap;
+        flex-direction: column nowrap;
     }
 }
 
 /*Tablet*/
 @media (min-width: 577px) and (max-width: 992px)
 {
-    .flexMenu{
-        display: flex;
-        flex-direction: row;
-        justify-content: end;
-        list-style-type: none;
-    }
-    .flexGaleria{
+    .flexIndex{
         display: flex;
         flex-flow: column nowrap;
     }
@@ -32,45 +21,8 @@
 /*Desktop*/
 @media (min-width: 993px)
 {
-    .flexMenu{
+    .flexIndex{
         display: flex;
-        flex-direction: row;
-        justify-content: end;
-        list-style-type: none;
-    }
-    .gridPostres{
-        display: grid;
-        grid-template-columns: 350px repeat(3,1fr);
-        grid-template-areas:
-        "h3 h3 h3 h3"
-        "uno dos tres cuatro"
-        "uno cinco seis siete";
-        gap: 1rem;
-        align-items: center;
-    }
-    h3#tartas{
-        grid-area: h3;
-    }
-    img#uno{
-        grid-area: uno;
-        width: 390px;
-    }
-    img#dos{
-        grid-area: dos;
-    }
-    img#tres{
-        grid-area: tres;
-    }
-    img#cuatro{
-        grid-area: cuatro;
-    }
-    img#cinco{
-        grid-area: cinco;
-    }
-    img#seis{
-        grid-area: seis;
-    }
-    img#siete{
-        grid-area: siete;
+        flex-flow: column nowrap;
     }
 }

@@ -1,55 +1,21 @@
 /*IMPORT*/
 /*Smartphone*/
 @media (max-width: 576px) {
-  .flexMenu {
+  .flexIndex {
     display: flex;
-    flex-direction: column;
-    list-style-type: none; }
-  .flexGaleria {
-    display: flex;
-    flex-flow: column nowrap; } }
+    flex-direction: column nowrap; } }
 
 /*Tablet*/
 @media (min-width: 577px) and (max-width: 992px) {
-  .flexMenu {
-    display: flex;
-    flex-direction: row;
-    justify-content: end;
-    list-style-type: none; }
-  .flexGaleria {
+  .flexIndex {
     display: flex;
     flex-flow: column nowrap; } }
 
 /*Desktop*/
 @media (min-width: 993px) {
-  .flexMenu {
+  .flexIndex {
     display: flex;
-    flex-direction: row;
-    justify-content: end;
-    list-style-type: none; }
-  .gridPostres {
-    display: grid;
-    grid-template-columns: 350px repeat(3, 1fr);
-    grid-template-areas: "h3 h3 h3 h3" "uno dos tres cuatro" "uno cinco seis siete";
-    gap: 1rem;
-    align-items: center; }
-  h3#tartas {
-    grid-area: h3; }
-  img#uno {
-    grid-area: uno;
-    width: 390px; }
-  img#dos {
-    grid-area: dos; }
-  img#tres {
-    grid-area: tres; }
-  img#cuatro {
-    grid-area: cuatro; }
-  img#cinco {
-    grid-area: cinco; }
-  img#seis {
-    grid-area: seis; }
-  img#siete {
-    grid-area: siete; } }
+    flex-flow: column nowrap; } }
 
 .fondoIndex {
   width: 100%;
@@ -152,6 +118,19 @@ article {
   text-align: justify;
   color: black; }
 
+/*animacion articulo*/
+article p {
+  animation-duration: 3s;
+  animation-name: slidein; }
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%; }
+  to {
+    margin-left: 0%;
+    width: 100%; } }
+
 .fondoVerde {
   min-height: 100vh;
   background-color: #dbefe6;
@@ -178,6 +157,9 @@ article {
 .box:hover {
   box-shadow: 0 0 20px rgba(33, 33, 33, 0.2); }
 
+.tituloForm {
+  margin-left: 25px; }
+
 .legend {
   color: #f59999; }
 
@@ -202,8 +184,15 @@ form {
   height: 40px;
   font-size: x-large; }
 
-.tituloForm {
-  margin-left: 25px; }
+.inputForm {
+  width: 150px;
+  height: 30px;
+  transform: all 2s; }
+
+.inputForm:focus {
+  width: 300px;
+  height: 40px;
+  font-size: 24px; }
 
 .imgGaleria {
   width: 300px;
@@ -225,30 +214,6 @@ form {
   background-color: #f7dada;
   letter-spacing: .1em;
   text-shadow: -1px -1px 1px #111,  2px 2px 1px #363636; }
-
-/*TRASNFORMACION-TRANSICION-ANIMACION*/
-.inputForm {
-  width: 150px;
-  height: 30px;
-  transform: all 2s; }
-
-.inputForm:focus {
-  width: 300px;
-  height: 40px;
-  font-size: 24px; }
-
-/*animacion articulo*/
-article p {
-  animation-duration: 3s;
-  animation-name: slidein; }
-
-@keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%; }
-  to {
-    margin-left: 0%;
-    width: 100%; } }
 
 /*ESTILOS GENERALES*/
 * {
