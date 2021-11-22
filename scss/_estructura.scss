@@ -7,6 +7,17 @@
         display: flex;
         flex-direction: column nowrap;
     }
+    .boton //boton para subir
+    {
+        width: 10px;
+        height: 10px;
+        background-image: url(../img/flecha-hacia-arriba.png);
+        margin-right: 10px;
+        margin-bottom: 35px;
+        position:fixed;
+        bottom: 0;
+        right: 0;
+    }
 }
 
 /*Tablet*/
@@ -15,6 +26,17 @@
     .flexIndex{
         display: flex;
         flex-flow: column nowrap;
+    }
+    .boton //boton para subir
+    {
+        width: 10px;
+        height: 10px;
+        background-image: url(../img/flecha-hacia-arriba.png);
+        margin-right: 10px;
+        margin-bottom: 35px;
+        position:fixed;
+        bottom: 0;
+        right: 0;
     }
 }
 
