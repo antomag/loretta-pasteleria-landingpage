@@ -156,6 +156,12 @@ article p {
   margin: 10px;
   text-align: center; }
 
+.ulProductos {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  justify-content: center; }
+
 .box {
   transition: box-shadow .3s;
   width: 300px;
