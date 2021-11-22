@@ -133,12 +133,9 @@ article {
   text-align: justify;
   color: black; }
 
-.aside {
-  display: flex;
-  flex-direction: column;
-  background-color: blue;
-  width: 15%;
-  min-width: 100vh; }
+.fotoArticulo {
+  border: solid 1px black;
+  margin: 20px; }
 
 /*animacion articulo*/
 article p {
