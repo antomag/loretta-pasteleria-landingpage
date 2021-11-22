@@ -57,23 +57,29 @@
         <h1 class="tituloForm">Formulario de Contacto</h1>
         <!--formulario de contacto-->
         <form action="">
-            <fieldset>
-                <legend class="legend ">Registro</legend>
+          <div class="row">
+            <div class="col-xl-6">
+              <fieldset>
+                <legend class="legend">Registro</legend>
+                <label for="nombre">Nombre de usuario:</label>
+                <input type="text" name="nombre" class="inputForm"> <br>
                 <label for="correo">Correo electrónico:</label>
                 <input type="email" name="correo" placeholder="tumail@mail.com" class="inputForm"> <br>
                 <label for="pass">Contraseña:</label>
                 <input type="password" name="pass" placeholder="************" class="inputForm"> <br>
-                <p>Tipo Comprador</p>
-                <div class="form-check form-check-inline">
-                    <legend>Minorista</legend>
-                    <input type="radio" name="Comprador" value="min" />
+                <legend>Tipo Comprador:</legend>
+                <div class="form-check-inline">
+                    <label>Minorista</label>
+                    <input type="checkbox" name="Comprador" value="min" />
                 </div>
-                <div class="form-check form-check-inline">
-                    <legend>Mayorista</legend>
-                    <input type="radio" name="Comprador" value="may" />
+                <div class="form-check-inline">
+                    <label>Mayorista</label>
+                    <input type="checkbox" name="Comprador" value="may" />
                 </div>
             </fieldset>
-            <fieldset>
+            </div>
+            <div class="col-xl-6">
+              <fieldset>
                 <legend class="legend">Info personal para envios</legend>
                 <label for="nombre">Nombre:</label>
                 <input type="text" name="nombre" placeholder="juan" class="inputForm"> <br>
@@ -84,8 +90,11 @@
                 <label for="telefono">Telefono:</label>
                 <input type="text" name="telefono" placeholder="(XXX) XX XXXX" class="inputForm"> <br>
                 <label for="comentario">Aclaraciones:</label> <br>
-                <textarea name="comentario" cols="50" rows="10"></textarea>
+                <textarea name="comentario" cols="80" rows=""></textarea>
             </fieldset>
+            </div>
+          </div>
+          
             <!--botones enviar y limpiar formulario-->
             <input type="submit" value="ENVIAR" class="botonEnviar"/>
             <input type="reset" value="LIMPIAR" class="botonLimpiar"/>
@@ -94,7 +103,7 @@
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
                 <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
               </svg>
-              <div>
+              <div class="alertFormulario">
                 Si presionas en el boton LIMPIAR se borraran todos los datos del formulario
               </div>
             </div>

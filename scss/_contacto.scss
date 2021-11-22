@@ -1,14 +1,16 @@
 //CONTACTO
 .tituloForm{
-    margin-left: 25px;
+    text-align: center;
 }
 .legend{
+    font-size: 35px;
     color:rgb(245, 153, 153);
 }
 form{
     margin: 10px;
     font-size: 25px;
     fieldset{
+        height: 60vh;
         border: solid 1.5px black;
         margin: 5px;
         padding: 5px;
@@ -19,7 +21,7 @@ form{
     height: 50px;
     font-size: xx-large;
     margin-top: 7px;
-    margin-left: 10%;
+    margin-left: 25%;
     margin-bottom: 10px;
 }
 .botonLimpiar{
@@ -36,4 +38,7 @@ form{
     width: 300px;
     height: 40px;
     font-size: 24px;
+}
+.alertFormulario{
+    font-size: 30px;
 }
