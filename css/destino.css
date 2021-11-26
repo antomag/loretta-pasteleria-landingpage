@@ -1,6 +1,53 @@
 /*IMPORT*/
 /*ESTRUCTURA*/
 /*Smartphone*/
+@media only screen and (max-width: 576px) {
+  .btn--instagram {
+    background-color: #DD2A7B;
+    width: 50px;
+    height: 50px;
+    border: black solid 2px;
+    border-radius: 20%;
+    background-position: center auto;
+    opacity: 85%;
+    margin: auto; }
+  .imgRedes {
+    margin: 2px;
+    padding: 2px;
+    width: 30px;
+    height: 30px;
+    position: center; }
+  .btn--whatsapp {
+    background-color: #25D366;
+    width: 50px;
+    height: 50px;
+    border: black solid 2px;
+    border-radius: 20%;
+    background-position: center auto;
+    opacity: 85%;
+    margin: auto; }
+  .imgRedes {
+    margin: 2px;
+    padding: 2px;
+    width: 30px;
+    height: 30px;
+    position: center; }
+  .btn--email {
+    background-color: #DB4437;
+    width: 50px;
+    height: 50px;
+    border: black solid 2px;
+    border-radius: 20%;
+    background-position: center auto;
+    opacity: 85%;
+    margin: auto; }
+  .imgRedes {
+    margin: 2px;
+    padding: 2px;
+    width: 30px;
+    height: 30px;
+    position: center; } }
+
 /*Tablet*/
 .fondoIndex {
   width: 100%;
