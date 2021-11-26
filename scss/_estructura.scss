@@ -1,7 +1,7 @@
 /*ESTRUCTURA*/
 
 /*Smartphone*/
-@media only screen and (max-width: 576px)
+@media screen and (max-width: 576px)
 {
     $redes: (
         instagram: #DD2A7B,
@@ -68,7 +68,7 @@
 }
 
 /*Tablet*/
-@media only screen and (min-width: 577px) and (max-width: 992px)
+@media screen and (min-width: 577px) and (max-width: 992px)
 {
     .boton //boton para subir
     {

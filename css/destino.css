@@ -1,7 +1,7 @@
 /*IMPORT*/
 /*ESTRUCTURA*/
 /*Smartphone*/
-@media only screen and (max-width: 576px) {
+@media screen and (max-width: 576px) {
   .btn--instagram {
     background-color: #DD2A7B;
     width: 50px;
@@ -79,7 +79,7 @@
     font-size: 15px; } }
 
 /*Tablet*/
-@media only screen and (min-width: 577px) and (max-width: 992px) {
+@media screen and (min-width: 577px) and (max-width: 992px) {
   .boton {
     width: 55px;
     height: 40px;
@@ -288,7 +288,8 @@ form {
   font-size: 24px; }
 
 .alertFormulario {
-  font-size: 30px; }
+  font-size: 30px;
+  text-align: center; }
 
 .imgGaleria {
   width: 300px;
