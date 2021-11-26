@@ -16,7 +16,7 @@
     padding: 2px;
     width: 30px;
     height: 30px;
-    position: center; }
+    position: center auto; }
   .btn--whatsapp {
     background-color: #25D366;
     width: 50px;
@@ -31,7 +31,7 @@
     padding: 2px;
     width: 30px;
     height: 30px;
-    position: center; }
+    position: center auto; }
   .btn--email {
     background-color: #DB4437;
     width: 50px;
@@ -46,7 +46,7 @@
     padding: 2px;
     width: 30px;
     height: 30px;
-    position: center; } }
+    position: center auto; } }
 
 /*Tablet*/
 .fondoIndex {
