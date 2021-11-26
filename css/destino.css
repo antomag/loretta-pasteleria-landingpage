@@ -57,7 +57,26 @@
     bottom: 0;
     right: 0; }
   a {
-    color: black; } }
+    color: black; }
+  .inputForm {
+    width: 150px;
+    height: 30px;
+    transform: all 2s; }
+  .inputForm:focus {
+    width: 170px;
+    height: 40px;
+    font-size: 18px; }
+  .alertFormulario {
+    font-size: 20px; }
+  .botonEnviar {
+    width: 25%;
+    height: 30px;
+    font-size: 20px;
+    margin: auto; }
+  .botonLimpiar {
+    width: 15%;
+    height: 25px;
+    font-size: 15px; } }
 
 /*Tablet*/
 @media only screen and (min-width: 577px) and (max-width: 992px) {
@@ -71,7 +90,15 @@
     bottom: 0;
     right: 0; }
   a {
-    color: black; } }
+    color: black; }
+  .inputForm {
+    width: 150px;
+    height: 30px;
+    transform: all 2s; }
+  .inputForm:focus {
+    width: 220px;
+    height: 40px;
+    font-size: 20px; } }
 
 .fondoIndex {
   width: 100%;
