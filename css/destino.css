@@ -124,7 +124,8 @@
 .presentacion {
   font-size: 30px;
   text-align: center;
-  background-color: #dbefe6; }
+  background-color: #dbefe6;
+  text-shadow: 0px 0px 4px grey; }
 
 .redes {
   background-color: #dbefe6;
@@ -325,7 +326,7 @@ body header {
   width: 100%;
   background-color: #f5b8b8;
   position: sticky;
-  border: solid 0.5px black; }
+  box-shadow: 3px 3px 5px grey; }
   body header nav li {
     margin-left: 20%;
     padding: 2px;
@@ -343,7 +344,8 @@ body footer {
   text-align: center;
   position: fixed;
   bottom: 0;
-  z-index: 1; }
+  z-index: 1;
+  box-shadow: 1px 1px 5px grey; }
 
 .logo {
   width: 110px;
@@ -370,5 +372,4 @@ body footer {
 .fondoVerde {
   min-height: 100vh;
   background-color: #dbefe6;
-  margin: 5px;
-  margin-bottom: 30px; }
+  margin: 10px 5px 30px 5px; }
