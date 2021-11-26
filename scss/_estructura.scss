@@ -27,10 +27,37 @@
             position: center auto;
         }
     }
+    .boton //boton para subir
+    {
+        width: 55px;
+        height: 40px;
+        font-size: 15px;
+        margin-right: 10px;
+        margin-bottom: 35px;
+        position:fixed;
+        bottom: 0;
+        right: 0;
+    }
+    a{
+        color: black;
+    }
 }
 
 /*Tablet*/
 @media only screen and (min-width: 577px) and (max-width: 992px)
 {
-    
+    .boton //boton para subir
+    {
+        width: 55px;
+        height: 40px;
+        font-size: 15px;
+        margin-right: 10px;
+        margin-bottom: 35px;
+        position:fixed;
+        bottom: 0;
+        right: 0;
+    }
+    a{
+        color: black;
+    }
 }
