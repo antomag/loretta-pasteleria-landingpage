@@ -50,14 +50,15 @@
   .boton {
     width: 55px;
     height: 40px;
-    font-size: 15px;
+    font-size: auto;
     margin-right: 10px;
     margin-bottom: 35px;
     position: fixed;
     bottom: 0;
     right: 0; }
   a {
-    color: black; }
+    color: black;
+    text-decoration: none; }
   .inputForm {
     width: 150px;
     height: 30px;
@@ -71,15 +72,14 @@
   .botonEnviar {
     width: 25%;
     height: 30px;
-    font-size: 20px;
+    font-size: auto;
     margin: auto; }
   .botonLimpiar {
     width: 15%;
     height: 25px;
-    font-size: 15px; }
+    font-size: auto; }
   .fotoArticulo {
-    width: auto;
-    max-width: 100%;
+    max-width: 100% auto;
     height: auto;
     object-fit: cover; } }
 
@@ -88,14 +88,24 @@
   .boton {
     width: 55px;
     height: 40px;
-    font-size: 15px;
+    font-size: auto;
     margin-right: 10px;
     margin-bottom: 35px;
     position: fixed;
     bottom: 0;
     right: 0; }
+  .botonEnviar {
+    width: 25%;
+    height: 30px;
+    font-size: auto;
+    margin: auto; }
+  .botonLimpiar {
+    width: 15%;
+    height: 25px;
+    font-size: auto; }
   a {
-    color: black; }
+    color: black;
+    text-decoration: none; }
   .inputForm {
     width: 150px;
     height: 30px;
