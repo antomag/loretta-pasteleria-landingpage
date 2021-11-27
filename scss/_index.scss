@@ -47,22 +47,20 @@ $redes: (
 //each
 @each $social, $color in $redes {
     .btn--#{$social} {
+        --bs-gutter-x: 1rem;
+        --bs-gutter-y: 1rem;
         background-color: $color;
-        width: 80px;
-        height: 80px;
+        width: 75px;
+        height: 70px;
         border: black solid 2px;
         border-radius: 30%;
-        background-position: center auto;
         opacity: 85%;
-        margin-left: 30%;
-        margin-top: auto;
-        
+        margin-left: 10%;        
     }
     .imgRedes{
-        margin: 2px;
         padding: 2px;
         width: 60px;
         height: 60px;
-        position: center;
     }
+       
 }
