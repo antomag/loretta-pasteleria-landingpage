@@ -152,6 +152,10 @@
   color: black;
   margin-left: 4%; }
 
+.a-redes {
+  display: inline-block;
+  margin: auto; }
+
 .btn--instagram {
   --bs-gutter-x: 1rem;
   --bs-gutter-y: 1rem;
