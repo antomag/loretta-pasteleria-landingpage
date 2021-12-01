@@ -27,17 +27,6 @@
             position: center auto;
         }
     }
-    .boton //boton para subir
-    {
-        width: 5vw;
-        height: 40px;
-        font-size: 16px;
-        margin-right: 10px;
-        margin-bottom: 35px;
-        position:fixed;
-        bottom: 0;
-        right: 0;
-    }
     a{
         color: black;
         text-decoration: none;
@@ -55,17 +44,6 @@
     .alertFormulario{
         font-size: 20px;
     }
-    .botonEnviar{
-        width: 25%;
-        height: 30px;
-        font-size: 16px;
-        margin:auto;
-    }
-    .botonLimpiar{
-        width: 15%;
-        height: 25px; 
-        font-size: 14px;
-    }
     .fotoArticulo{
         max-width: 100% auto;
         height: auto;
@@ -76,28 +54,6 @@
 /*Tablet*/
 @media screen and (min-width: 577px) and (max-width: 992px)
 {
-    .boton //boton para subir
-    {
-        width: 55px;
-        height: 40px;
-        font-size: auto;
-        margin-right: 10px;
-        margin-bottom: 35px;
-        position:fixed;
-        bottom: 0;
-        right: 0;
-    }
-    .botonEnviar{
-        width: 25%;
-        height: 30px;
-        font-size: auto;
-        margin:auto;
-    }
-    .botonLimpiar{
-        width: 15%;
-        height: 25px; 
-        font-size: auto;
-    }
     a{
         color: black;
         text-decoration: none;

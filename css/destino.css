@@ -47,15 +47,6 @@
     width: 30px;
     height: 30px;
     position: center auto; }
-  .boton {
-    width: 5vw;
-    height: 40px;
-    font-size: 16px;
-    margin-right: 10px;
-    margin-bottom: 35px;
-    position: fixed;
-    bottom: 0;
-    right: 0; }
   a {
     color: black;
     text-decoration: none; }
@@ -69,15 +60,6 @@
     font-size: 18px; }
   .alertFormulario {
     font-size: 20px; }
-  .botonEnviar {
-    width: 25%;
-    height: 30px;
-    font-size: 16px;
-    margin: auto; }
-  .botonLimpiar {
-    width: 15%;
-    height: 25px;
-    font-size: 14px; }
   .fotoArticulo {
     max-width: 100% auto;
     height: auto;
@@ -85,24 +67,6 @@
 
 /*Tablet*/
 @media screen and (min-width: 577px) and (max-width: 992px) {
-  .boton {
-    width: 55px;
-    height: 40px;
-    font-size: auto;
-    margin-right: 10px;
-    margin-bottom: 35px;
-    position: fixed;
-    bottom: 0;
-    right: 0; }
-  .botonEnviar {
-    width: 25%;
-    height: 30px;
-    font-size: auto;
-    margin: auto; }
-  .botonLimpiar {
-    width: 15%;
-    height: 25px;
-    font-size: auto; }
   a {
     color: black;
     text-decoration: none; }
@@ -286,17 +250,12 @@ form {
   height: 100vh auto; }
 
 .botonEnviar {
-  width: 24vw;
-  height: 50px;
-  font-size: xx-large;
-  margin-top: 7px;
-  margin-left: 25%;
-  margin-bottom: 10px; }
+  margin-left: 20vw;
+  margin-bottom: 10px;
+  border: dashed 1.5px black; }
 
 .botonLimpiar {
-  width: 15vw;
-  height: 40px;
-  font-size: x-large; }
+  border: dashed 0.5px black; }
 
 .inputForm {
   width: 150px;
@@ -384,9 +343,6 @@ body footer {
   animation-duration: 2s; }
 
 .boton {
-  width: 5vw;
-  height: 40px;
-  font-size: 25px;
   margin-right: 10px;
   margin-bottom: 35px;
   position: fixed;
