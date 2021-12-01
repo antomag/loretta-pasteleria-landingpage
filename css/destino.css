@@ -48,9 +48,9 @@
     height: 30px;
     position: center auto; }
   .boton {
-    width: 55px;
+    width: 5vw;
     height: 40px;
-    font-size: auto;
+    font-size: 16px;
     margin-right: 10px;
     margin-bottom: 35px;
     position: fixed;
@@ -72,12 +72,12 @@
   .botonEnviar {
     width: 25%;
     height: 30px;
-    font-size: auto;
+    font-size: 16px;
     margin: auto; }
   .botonLimpiar {
     width: 15%;
     height: 25px;
-    font-size: auto; }
+    font-size: 14px; }
   .fotoArticulo {
     max-width: 100% auto;
     height: auto;
@@ -158,7 +158,6 @@
 
 .btn--instagram {
   --bs-gutter-x: 1rem;
-  --bs-gutter-y: 1rem;
   background-color: #DD2A7B;
   width: 75px;
   height: 70px;
@@ -174,7 +173,6 @@
 
 .btn--whatsapp {
   --bs-gutter-x: 1rem;
-  --bs-gutter-y: 1rem;
   background-color: #25D366;
   width: 75px;
   height: 70px;
@@ -190,7 +188,6 @@
 
 .btn--email {
   --bs-gutter-x: 1rem;
-  --bs-gutter-y: 1rem;
   background-color: #DB4437;
   width: 75px;
   height: 70px;
@@ -385,7 +382,7 @@ body footer {
   animation-duration: 2s; }
 
 .boton {
-  width: 55px;
+  width: 5vw;
   height: 40px;
   font-size: 25px;
   margin-right: 10px;

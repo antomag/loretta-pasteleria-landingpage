@@ -51,7 +51,6 @@ $redes: (
 @each $social, $color in $redes {
     .btn--#{$social} {
         --bs-gutter-x: 1rem;
-        --bs-gutter-y: 1rem;
         background-color: $color;
         width: 75px;
         height: 70px;
@@ -65,5 +64,4 @@ $redes: (
         width: 60px;
         height: 60px;
     }
-       
 }
