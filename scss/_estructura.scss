@@ -49,6 +49,9 @@
         height: auto;
         object-fit: cover;
     }
+    .botonEnviar{
+        margin: auto;
+    }
 }
 
 /*Tablet*/
@@ -67,5 +70,8 @@
         width: 220px;
         height: 40px;
         font-size: 20px;
+    }
+    .botonEnviar{
+        margin: auto;
     }
 }
