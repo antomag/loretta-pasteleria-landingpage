@@ -65,7 +65,11 @@
     height: auto;
     object-fit: cover; }
   .botonEnviar {
-    margin: none; } }
+    margin: none;
+    justify-content: center; }
+  .botonLimpiar {
+    margin: none;
+    justify-content: center; } }
 
 /*Tablet*/
 @media screen and (min-width: 577px) and (max-width: 992px) {
