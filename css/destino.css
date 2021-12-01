@@ -63,13 +63,7 @@
   .fotoArticulo {
     max-width: 100% auto;
     height: auto;
-    object-fit: cover; }
-  .botonEnviar {
-    margin: none;
-    justify-content: center; }
-  .botonLimpiar {
-    margin: none;
-    justify-content: center; } }
+    object-fit: cover; } }
 
 /*Tablet*/
 @media screen and (min-width: 577px) and (max-width: 992px) {
@@ -83,9 +77,7 @@
   .inputForm:focus {
     width: 220px;
     height: 40px;
-    font-size: 20px; }
-  .botonEnviar {
-    margin: auto; } }
+    font-size: 20px; } }
 
 .fondoIndex {
   width: 100%;
@@ -258,12 +250,11 @@ form {
   height: 100vh auto; }
 
 .botonEnviar {
-  margin-left: 20vw;
+  margin-left: 5px;
   margin-bottom: 10px;
   border: dashed 1.5px black; }
 
 .botonLimpiar {
-  margin-left: 1vw;
   border: dashed 0.5px black; }
 
 .inputForm {
